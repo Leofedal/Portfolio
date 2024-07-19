@@ -6,7 +6,7 @@ import Sky from "../models/Sky";
 import Bird from "../models/Bird";
 import Plane from "../models/Plane";
 import HomeInfo from "../components/HomeInfo";
-import sakura from "../assets/sakura.mp3"
+import sakura from "../assets/sakura.mp3";
 import { soundon, soundoff } from "../assets/icons";
 
 const Home = () => {
@@ -19,11 +19,10 @@ const Home = () => {
   useEffect(() => {
     if (isPlayingMusic) {
       audioRef.current.play();
-    } return () => {
-      
-    
-      audioRef.current.pause();
     }
+    return () => {
+      audioRef.current.pause();
+    };
   }, [isPlayingMusic]);
 
   const [isRotating, setIsRotating] = useState(false);
@@ -66,7 +65,7 @@ const Home = () => {
       >
         {currentStage && <HomeInfo currentStage={currentStage} />}
       </div>
-      
+
       <Canvas
         className={`w-full h-screen bg-transparent ${
           isRotating ? "cursor-grabbing" : "cursor-grab"
@@ -100,8 +99,12 @@ const Home = () => {
         </Suspense>
       </Canvas>
       <div className="absolute bottom-2 right-2">
-        <img src={!isPlayingMusic ? soundoff : soundon} alt="soud" className="w-10 h-10 cursor-pointer object-contain" 
-        onClick={() => setIsPlayingMusic(!isPlayingMusic)}/>
+        <img
+          src={!isPlayingMusic ? soundoff : soundon}
+          alt="soud"
+          className="w-10 h-10 cursor-pointer object-contain"
+          onClick={() => setIsPlayingMusic(!isPlayingMusic)}
+        />
       </div>
     </section>
   );
