@@ -12,7 +12,8 @@ Bonjour, je suis <span className="blue-gradient_text font-semibold drop-shadow">
     <div className="mt-5 flex flex-col gap-3 text-slate-500">
 
       <p>
-        Developpeur web junior
+
+Passionné de technologie et de développement web depuis mon enfance, j'ai franchi le pas en 2024 pour me reconvertir dans ce domaine. En tant que développeur web junior, j’ai développé grâce à mes expériences antérieures une capacité d'adaptation rapide et une approche proactive de l'apprentissage, me permettant de contribuer activement à des projets innovants et stimulants.
 
       </p>
     </div>
@@ -39,7 +40,12 @@ Experiences professionnelles
  <div className="mt-5 flex flex-col gap-3 text-slate-500">
 
       <p>
-        j'ai beaucoup dexperience dans plein de domaine
+       J'ai développé des compétences en gestion de projets complexes, 
+       leadership et communication efficace. Mon parcours m'a permis de gérer le stress en bloc opératoire,
+        diriger des équipes dans l'armée, et fabriquer des dispositifs médicaux.
+         J'ai également optimisé les opérations grâce à des logiciels de gestion et renforcé mes compétences en développement web fullstack.
+
+
 
       </p>
     </div>
