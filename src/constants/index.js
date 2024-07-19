@@ -1,4 +1,11 @@
-import { darmoha, ortho, sdis, wildcode, armee } from "../assets/images";
+import {
+  darmoha,
+  ortho,
+  sdis,
+  wildcode,
+  armee,
+  instrumentiste,
+} from "../assets/images";
 import {
   car,
   contact,
@@ -96,7 +103,7 @@ export const experiences = [
   {
     title: "Instrumentiste de Bloc opératoire",
     company_name: "ES santé lausanne",
-    icon: ortho,
+    icon: instrumentiste,
     iconBg: "#accbe1",
     date: "Aout 2018 - Mai 2021",
     points: [

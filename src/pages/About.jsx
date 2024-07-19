@@ -48,12 +48,16 @@ const About = () => {
         <h3 className="subhead-text">Experiences professionnelles</h3>
         <div className="mt-5 flex flex-col gap-3 text-slate-500">
           <p>
-            J'ai développé des compétences en gestion de projets complexes,
-            leadership et communication efficace. Mon parcours m'a permis de
-            gérer le stress en bloc opératoire, diriger des équipes dans
-            l'armée, et fabriquer des dispositifs médicaux. J'ai également
-            optimisé les opérations grâce à des logiciels de gestion et renforcé
-            mes compétences en développement web fullstack.
+            Je possède des compétences solides en gestion de projets complexes,
+            leadership et communication efficace. Mon parcours varié m'a permis
+            de développer une capacité exceptionnelle à gérer le stress,
+            notamment en bloc opératoire, de diriger des équipes dans l'armée,
+            et de maîtriser l'utilisation de dispositifs médicaux. En optimisant
+            les opérations grâce à des logiciels de gestion et en renforçant mes
+            compétences en développement web fullstack, j'ai acquis une
+            polyvalence qui me permet de m'adapter rapidement à divers
+            environnements de travail et de contribuer activement à des projets
+            innovants.
           </p>
         </div>
         <div className="mt12 flex">
@@ -67,7 +71,7 @@ const About = () => {
                     <img
                       src={experience.icon}
                       alt={experience.company_name}
-                      className="w-[60%] h-[60%] object-contain"
+                      className="w-[60%] h-[60%] object-contain rounded-full"
                     />
                   </div>
                 }
