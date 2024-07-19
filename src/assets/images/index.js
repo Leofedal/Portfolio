@@ -1,15 +1,19 @@
 import hero from './hero.jpg'
-import meta from './meta.png'
-import shopify from './shopify.png'
-import starbucks from './starbucks.png'
-import tesla from './tesla.png'
 import logo from './logo.svg'
+import cessouest from './cessouest.jpeg'
+import darmoha from './darmoha.jpeg'
+import ortho from './ortho.jpeg'
+import sdis from './sdisnyon.jpeg'
+import wildcode  from "./wild_code_school_logo.jpeg"
+import armee  from "./armee.jpeg"
 
 export {
     hero,
-    meta,
-    shopify,
-    starbucks,
-    tesla,
-    logo
+    logo,
+    cessouest,
+    darmoha,
+    ortho,
+    sdis,
+    wildcode,
+    armee
 }

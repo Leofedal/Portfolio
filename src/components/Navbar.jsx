@@ -16,7 +16,7 @@ const Navbar = () => {
             isActive ? "text-blue-500" : "text-black-500"
           }
         >
-          About
+          A propos de moi
         </NavLink>
 
         <NavLink
@@ -25,7 +25,7 @@ const Navbar = () => {
             isActive ? "text-blue-500" : "text-black-500"
           }
         >
-          projects
+          Mes projets
         </NavLink>
       </nav>
     </header>
