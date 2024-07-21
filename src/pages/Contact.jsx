@@ -32,7 +32,7 @@ const Contact = () => {
           to_email: "leonardfedal@gmail.com",
           message: form.message,
         },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY,
+        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
       )
       .then(() => {
         setisLoading(false);
@@ -138,7 +138,7 @@ const Contact = () => {
               currentAnimation={currentAnimation}
               position={[0.5, 0.35, 0]}
               rotation={[12.7, -0.7, 0]}
-              scale={[0.5, 0.5, 0.5]}
+              scale={[0.3, 0.3, 0.3]}
             />
           </Suspense>
         </Canvas>

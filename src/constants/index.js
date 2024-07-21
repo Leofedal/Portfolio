@@ -200,7 +200,7 @@ export const projects = [
   {
     iconUrl: car,
     theme: "btn-back-blue",
-    name: "Escape Toolouse",
+    name: "Escape Toulouse",
     description:
       "Développement d'une single page application en HTML, CSS et JavaScript : un jeu d'escape game sur le thème de la ville de Toulouse. Le projet met en avant la résolution d'énigmes, la découverte des lieux emblématiques de la ville et l'interaction utilisateur pour offrir une expérience immersive et engageante.3",
     link: "https://github.com/ileanaspl/escape-touloose",
